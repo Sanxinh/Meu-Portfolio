@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto';
+}
+
+body {
+    display: grid;
+    font-size: 2rem;
+    margin: 20px;
+    grid: 
+    "cabecalho cabecalho cabecalho"
+    "perfil perfil perfil"
+    "info info info"
+    "conhecimento conhecimento conhecimento";
+    background-color: #232946;
+    color: #b8c1ec;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191D26;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    ul {
+        display: flex;
+        gap: 35px;
+        padding: 20px;
+
+        li {
+            padding: 10px;
+        }
+    
+
+        a {
+            color: #fff;
+            border: 1px solid;
+            border-radius: 50px;
+            padding: 10px;
+            transition: 0.3s ease-in-out;
+        }
+    }
+
+}
+
+.cabecalho nav .lista-cabecalho li a:hover {
+    color: #b8c1ec;
+}
+
+.perfil {
+    grid-area: perfil;
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.info {
+    grid-area: info;
+}
+
+.conhecimento {
+    grid-area: conhecimento;
+}
