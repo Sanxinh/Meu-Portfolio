@@ -6,10 +6,10 @@ html {
 body {
     display: grid;
     font-size: 2rem;
-    margin: 20px;
+    font-weight: 300;
     grid: 
-    "cabecalho cabecalho cabecalho"
-    "perfil perfil perfil"
+    "cabecalho cabecalho cabecalho" 
+    "perfil perfil perfil" 
     "info info info"
     "conhecimento conhecimento conhecimento";
     background-color: #232946;
@@ -19,9 +19,10 @@ body {
 .cabecalho {
     grid-area: cabecalho;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #191D26;
+
 
     img {
         width: 100px;
@@ -31,7 +32,6 @@ body {
     ul {
         display: flex;
         gap: 35px;
-        padding: 20px;
 
         li {
             padding: 10px;
@@ -56,13 +56,51 @@ body {
 .perfil {
     grid-area: perfil;
     display: flex;
-    height: 85vh;
     justify-content: center;
     align-items: center;
+    margin: 100px 450px;
+    padding: 20px ;
+    border: 2px solid #191D26;
+    gap: 50px;
+    width: 100vh;
 
     img {
-        width: 350px;
-        height: 350px;
+        width: 500px;
+        height: 500px;
+    }
+
+    h3 {
+        font-weight: 500;
+        margin: 16px 0;
+    }
+
+    .funcao {
+        font-size: 1.8rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        margin: 16px 0;
+    }
+
+    p {
+        line-height: 160%;
+        font-size: 1.8rem;
+        margin: 32px 0 48px ;
+    }
+
+    .redes-sociais {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+        a {
+        border: 2px solid ;
+        border-radius: 6px;
+        font-size: 2rem;
+        padding: 20px;
+       
     }
 }
 
