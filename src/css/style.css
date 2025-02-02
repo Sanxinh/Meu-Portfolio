@@ -19,7 +19,7 @@ body {
 .cabecalho {
     grid-area: cabecalho;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-be;
     align-items: center;
     background-color: #191D26;
 
@@ -62,7 +62,6 @@ body {
     padding: 20px ;
     border: 2px solid #191D26;
     gap: 50px;
-    width: 100vh;
 
     img {
         width: 500px;
@@ -92,15 +91,15 @@ body {
 
     .redes-sociais {
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 20px;
     }
         a {
         border: 2px solid ;
         border-radius: 6px;
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding: 20px;
-       
     }
 }
 
