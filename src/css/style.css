@@ -24,7 +24,6 @@ body {
     background-color: #191D26;
     margin: 0 0 125px;
 
-
     img {
         width: 100px;
         height: 100px;
@@ -59,8 +58,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   
     gap: 50px;
+    margin: 0 0 125px;
 
     .sobre-eu {
         display: flex; 
@@ -118,6 +117,12 @@ body {
 
 .info {
     grid-area: info;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
 }
 
 .conhecimento {
