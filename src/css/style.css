@@ -19,9 +19,10 @@ body {
 .cabecalho {
     grid-area: cabecalho;
     display: flex;
-    justify-content: space-be;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #191D26;
+    margin: 0 0 125px;
 
 
     img {
@@ -58,19 +59,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 450px;
-    padding: 20px ;
-    border: 2px solid #191D26;
+   
     gap: 50px;
 
+    .sobre-eu {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 20px;
+        max-width: 900px;
+        border: 2px solid #191D26;
+    }
+
     img {
-        width: 500px;
-        height: 500px;
+        width: 450px;
+        height: 450px;
     }
 
     h3 {
         font-weight: 500;
         margin: 16px 0;
+    }
+
+    h2 {
+        font-weight: 500;
+        margin: 16px 0; 
     }
 
     .funcao {
@@ -91,7 +105,6 @@ body {
 
     .redes-sociais {
         display: flex;
-        justify-content: center;
         align-items: center;
         gap: 20px;
     }
@@ -99,7 +112,7 @@ body {
         border: 2px solid ;
         border-radius: 6px;
         font-size: 2.5rem;
-        padding: 20px;
+        padding: 25px;
     }
 }
 
