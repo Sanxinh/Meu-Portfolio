@@ -139,6 +139,13 @@
 
 @media (max-width: 375px) {
 
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+
     .cabecalho {
         margin: 0 0 75px;
 
@@ -157,14 +164,15 @@
     }
 
     .perfil{
+        display: flex;
+        justify-content: center;
 
+        text-align: center;
         font-size: 50%;
-        margin: 0 0 0 90px;
-        width: 50%;
+        margin: 0;
 
         .sobre-eu{
-          width: 100%;
-          
+       
           
         }
 
