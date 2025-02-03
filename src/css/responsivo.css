@@ -1,0 +1,227 @@
+@media (max-width: 992px) {
+    .info {
+        margin: 20px;
+    }
+
+    .conhecimento{
+        margin: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+        .cabecalho {
+            display: flex;
+            justify-content: flex-start;
+            
+
+            ul {
+                gap: 35px;
+                margin: 0 0 0 75px;
+            }
+        }
+
+        .perfil {
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 0 0 125px 125px;
+
+
+            .sobre-eu {
+                display: flex;
+                flex-direction: column;
+                max-width: 550px;
+                text-align: center;
+            }
+
+            .redes-sociais{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            flex-flow: column nowrap;
+            width:100vh ;
+
+            div{
+
+                .projetos {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    
+                }
+            }
+        }
+
+        .conhecimento {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .info-conhecimento {
+                margin: 10px;
+            }
+        }
+}
+
+@media (max-width: 576px) {
+     
+
+        .cabecalho {
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            img{
+                width: 50px;
+                height: 50px;
+            }
+
+            ul {
+                margin: 0 30px ;
+                font-size: 1.6rem;
+            }
+        }
+
+        .perfil {
+        
+            .sobre-eu{
+                width: 350px;
+            }
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+
+            p {
+                font-size: 1rem;
+                
+            }
+
+            .redes-sociais {
+
+                a {
+                    font-size: 1rem;
+                    padding: 12px;
+                }
+            }
+        }
+
+        .info {
+            width: 550px;
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-flow: column nowrap;
+            }
+        }
+
+        .conhecimento {
+            width: 475px;
+        }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+    .cabecalho {
+        margin: 0 0 75px;
+
+        ul{
+            gap: 10px;
+
+            li {
+                padding: 5px;
+            }
+
+            a{
+                padding: 5px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .perfil{
+
+        font-size: 50%;
+        margin: 0 0 0 90px;
+        width: 50%;
+
+        .sobre-eu{
+          width: 100%;
+          
+          
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .funcao {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+            font-weight: 300;
+        }
+        
+        .redes-sociais {
+            a{
+                padding: 8px;
+            }
+        }
+    }
+
+    .info {
+        width: 80%;
+        
+
+        div {
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .projetos {
+                
+
+                article {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .conhecimento {
+        width: 65%;
+
+        article {
+            gap: 10px;
+            width: 100%;
+
+            div {
+                font-size: 1.8rem;
+                padding: 16px;
+                margin: 8px;
+                display: flex;
+            }
+        }
+    }
+}
