@@ -11,7 +11,8 @@ body {
     "cabecalho cabecalho cabecalho" 
     "perfil perfil perfil" 
     "info info info"
-    "conhecimento conhecimento conhecimento";
+    "conhecimento conhecimento conhecimento"
+    "footer footer footer";
     background-color: #232946;
     color: #b8c1ec;
 }
@@ -80,6 +81,7 @@ body {
     h3 {
         font-weight: 500;
         margin: 16px 0;
+        text-decoration: underline ;
     }
 
     h2 {
@@ -129,6 +131,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 0 125px;
 
     div {
         max-width: 1440px;
@@ -137,6 +140,7 @@ body {
             font-size: 4rem;
             font-weight: 500;
             padding: 0 0 40px;
+            text-decoration: underline;
         }
 
         .projetos {
@@ -187,6 +191,7 @@ body {
             padding: 10px;
             box-shadow: inset 0 0 2px 3px  ;
             transition: 0.4s ease-in;
+            
         }
     }
 }
@@ -203,4 +208,68 @@ body {
 
 .conhecimento {
     grid-area: conhecimento;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 125px;
+
+    .info-conhecimento {
+       max-width: 450px;
+
+        h2 {
+            text-decoration: underline;
+            align-items: center;
+            font-weight: 500;
+            font-size: 4rem;
+            height: auto;
+            margin: 50px 20px;
+            font-weight: 500;
+        }
+
+        p {
+            line-height: 3.8rem;
+            font-size: 1.8rem;
+        }
+    }
+    
+  
+
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        max-width: 1440px;
+        gap: 30px;
+        width: 550px;
+        border: 2px solid black ;
+        border-radius: 15px;
+
+        div {
+            font-size: 7rem;
+            margin: 24px;
+            border: 1px solid ;
+            border-radius: 15px;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+            transition: 0.5s ease-in;
+        }
+
+
+    }
+
+}
+
+.conhecimento article div:hover {
+    color: #fff;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191D26;
+    height: 100px;
 }
