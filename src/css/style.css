@@ -40,10 +40,9 @@ body {
 
         a {
             color: #fff;
-            border: 1px solid;
-            border-radius: 50px;
+           
             padding: 10px;
-            transition: 0.3s ease-in-out;
+            transition: 0.4s ease-in-out;
         }
     }
 
@@ -51,6 +50,7 @@ body {
 
 .cabecalho nav .lista-cabecalho li a:hover {
     color: #b8c1ec;
+    text-decoration: underline;
 }
 
 .perfil {
@@ -101,6 +101,8 @@ body {
         line-height: 160%;
         font-size: 1.8rem;
         margin: 32px 0 48px ;
+        color: #9ca3af; 
+
     }
 
     .redes-sociais {
@@ -113,7 +115,12 @@ body {
         border-radius: 6px;
         font-size: 2.5rem;
         padding: 25px;
+        transition: 0.4s ease-in;
     }
+}
+
+.perfil .sobre-eu .redes-sociais a:hover {
+    color: #fff;
 }
 
 .info {
@@ -179,6 +186,7 @@ body {
             border-radius: 10px;
             padding: 10px;
             box-shadow: inset 0 0 2px 3px  ;
+            transition: 0.4s ease-in;
         }
     }
 }
@@ -187,6 +195,10 @@ body {
     color: #b8c1ec;
 }
 
+
+.info div .meu-repositorio:hover {
+    color: #fff;
+}
 
 
 .conhecimento {
