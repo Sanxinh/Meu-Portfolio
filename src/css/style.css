@@ -26,22 +26,22 @@ body {
     margin: 0 0 125px;
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 10rem;
+        height: 10rem;
     }
 
     ul {
         display: flex;
-        gap: 35px;
+        gap: 3.5rem;
 
         li {
-            padding: 10px;
+            padding: 1rem;
         }
     
 
         a {
             color: #fff;
-            padding: 10px;
+            padding: 1rem;
             transition: 0.4s ease-in-out;
         }
     }
@@ -58,34 +58,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    margin: 0 0 125px;
+    gap: 5rem;
+    margin: 0 0 12.5rem;
  
 
     .sobre-eu {
         display: flex; 
         justify-content: center;
         align-items: center;
-        gap: 50px;
-        padding: 20px;
-        max-width: 900px;
+        gap: 5rem;
+        padding: 2rem;
+        max-width: 90rem;
         border: 2px solid #191D26;
     }
 
     img {
-        width: 450px;
-        height: 450px;
+        width: 45rem;
+        height: 45rem;
     }
 
     h3 {
         font-weight: 500;
-        margin: 16px 0;
+        margin: 1.6rem 0;
         text-decoration: underline ;
     }
 
     h2 {
         font-weight: 500;
-        margin: 16px 0; 
+        margin: 1.6rem 0; 
     }
 
     .funcao {
@@ -95,13 +95,13 @@ body {
     h1 {
         font-size: 4rem;
         font-weight: 700;
-        margin: 16px 0;
+        margin: 1.6rem 0;
     }
 
     p {
         line-height: 160%;
         font-size: 1.8rem;
-        margin: 32px 0 48px ;
+        margin: 3.2rem 0 4.8rem ;
         color: #9ca3af; 
 
     }
@@ -109,13 +109,13 @@ body {
     .redes-sociais {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 2rem;
     }
         a {
-        border: 2px solid ;
-        border-radius: 6px;
+        border: 0.2rem solid ;
+        border-radius: 0.6rem;
         font-size: 2.5rem;
-        padding: 25px;
+        padding: 2.5rem;
         transition: 0.4s ease-in;
     }
 }
@@ -133,30 +133,29 @@ body {
     margin: 0 0 125px;
 
     div {
-        max-width: 1440px;
+        max-width: 144rem;
 
         h2 {
             font-size: 4rem;
             font-weight: 500;
-            padding: 0 0 25px;
+            padding: 0 0 2.5rem;
             text-decoration: underline;
         }
 
         .projetos {
             display: flex;
             flex-flow: wrap;
-            gap: 20px 0;
+            gap: 2rem 0;
             justify-content: space-between;
             align-items: stretch;
-            margin: 36px 0;
+            margin: 3.6rem 0;
 
             article {
-                max-width: 400px;
                 border: 1px solid;
-                margin: 8px;
-                padding: 32px;
+                margin: 0.8rem;
+                padding: 3.2rem;
                 text-align: left;
-                width: 400px;
+                width: 40rem;
 
                 h3 {
                     font-size: 2.4rem;
@@ -165,7 +164,7 @@ body {
                 }
 
                 p {
-                    margin: 24px 0;
+                    margin: 2.4rem 0;
                     font-size: 1.8rem;
                     color: #9ca3af; 
                     line-height: 3.2rem;
@@ -187,8 +186,8 @@ body {
         .meu-repositorio {
             background-color: #191D26;
             border: 1px solid #fff;
-            border-radius: 10px;
-            padding: 10px;
+            border-radius: 1rem;
+            padding: 1rem;
             box-shadow: inset 0 0 2px 3px  ;
             transition: 0.4s ease-in;
     
@@ -210,7 +209,7 @@ body {
     grid-area: conhecimento;
     display: flex;
     justify-content: space-evenly;
-    margin: 0 0 125px;
+    margin: 0 0 12.5rem;
 
     .info-conhecimento {
        max-width: 450px;
@@ -221,7 +220,7 @@ body {
             font-weight: 500;
             font-size: 4rem;
             height: auto;
-            margin: 50px 20px;
+            margin: 5rem 2rem;
             font-weight: 500;
         }
 
@@ -238,21 +237,21 @@ body {
         flex-wrap: wrap;
         align-items: stretch;
         justify-content: space-between;
-        max-width: 1440px;
-        gap: 30px;
-        width: 550px;
+        max-width: 144rem;
+        gap: 3rem;
+        width: 55rem;
         border: 2px solid black ;
-        border-radius: 15px;
+        border-radius: 1.5rem;
 
         div {
             font-size: 7rem;
-            margin: 24px;
+            margin: 2.4rem;
             border: 1px solid ;
-            border-radius: 15px;
+            border-radius: 1.5rem;
             cursor: pointer;
             justify-content: center;
             align-items: center;
-            padding: 24px;
+            padding: 2.4rem;
             transition: 0.5s ease-in;
         }
 
@@ -271,5 +270,5 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #191D26;
-    height: 100px;
+    height: 10rem;
 }

@@ -1,85 +1,84 @@
 @media (max-width: 992px) {
+    body {
+        
+        
+    }
+
+    .cabecalho {
+        width: 100%;
+    }
+
+    .perfil {
+
+        display: flex;
+        
+        .sobre-eu{
+            display: flex;
+            flex-flow: column wrap;
+            width: 70%;
+            text-align: center;
+        }
+
+        .redes-sociais {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
     .info {
-        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div {
+            .projetos {
+                flex-flow: column nowrap;
+            }
+        }
     }
 
     .conhecimento{
-        margin: 50px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        .info-conhecimento {
+            text-align: center;
+            margin: 0 0 20px;
+        }
+        
     }
 }
 
 @media (max-width: 768px) {
 
 
-        .cabecalho {
-            display: flex;
-            justify-content: flex-start;
-            
-
-            ul {
-                gap: 35px;
-                margin: 0 0 0 75px;
-            }
-        }
-
         .perfil {
 
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            margin: 0 0 125px 125px;
-
-
             .sobre-eu {
-                display: flex;
-                flex-direction: column;
-                max-width: 550px;
-                text-align: center;
+
+                width: 80%;
             }
 
-            .redes-sociais{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+            img {
+
+                width: 35rem;
+                height: 35rem;
             }
         }
 
-        .info {
-            display: flex;
-            align-items: center;
-            flex-flow: column nowrap;
-            width:100vh ;
-
-            div{
-
-                .projetos {
-                    display: flex;
-                    flex-flow: column nowrap;
-                    
-                }
-            }
-        }
-
-        .conhecimento {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-
-            .info-conhecimento {
-                margin: 10px;
-            }
-        }
 }
 
 @media (max-width: 576px) {
+
+
      
 
         .cabecalho {
-
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             align-items: center;
 
             img{
@@ -88,7 +87,8 @@
             }
 
             ul {
-                margin: 0 30px ;
+                gap: 1rem;
+                margin: 0;
                 font-size: 1.6rem;
             }
         }
@@ -96,7 +96,7 @@
         .perfil {
         
             .sobre-eu{
-                width: 350px;
+                
             }
 
             img {
@@ -105,80 +105,102 @@
             }
 
             p {
-                font-size: 1rem;
+                font-size: 1.6rem;
                 
             }
 
             .redes-sociais {
 
                 a {
-                    font-size: 1rem;
+                    font-size: 1.6rem;
                     padding: 12px;
                 }
             }
         }
 
         .info {
-            width: 550px;
-
-            div {
-                display: flex;
+            display: flex;
                 align-items: center;
                 justify-content: center;
-                flex-flow: column nowrap;
+                flex-flow: column nowrap;   
+
+            div {
+                
+                h2 {
+                    font-size: 2.5rem;
+
+                }
+
+                .projetos {
+                    
+                    
+                    article {
+                        padding: 2rem;
+                        width: 30rem;
+
+                        h3 {
+                            font-size: 1.8rem;
+                        }
+
+                        p {
+                            font-size: 1.4rem;
+                        }
+
+                        a {
+                            font-size: 1.7rem;
+                        }
+                    }
+                }
             }
         }
 
         .conhecimento {
-            width: 475px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .info-conhecimento{
+                width: 35rem;
+                h2 {
+                    font-size: 2.6rem;
+                }
+            }
+
+            article {
+                width: 80%;
+                
+                div {
+                    font-size: 3rem;
+                }
+            }
+            
         }
 
 }
 
 
 
-@media (max-width: 420px) {
+@media (max-width: 375px) {
 
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column wrap;
-    }
 
     .cabecalho {
-        margin: 0 0 75px;
+    
 
         ul{
-            gap: 10px;
-
-            li {
-                padding: 5px;
-            }
-
+        
             a{
-                padding: 5px;
+                padding: 0.5rem;
                 font-size: 1.6rem;
             }
         }
     }
 
     .perfil{
-        display: flex;
-        justify-content: center;
-
-        text-align: center;
         font-size: 50%;
-        margin: 0;
-
-        .sobre-eu{
-       
-          
-        }
 
         img {
-            width: 100px;
-            height: 100px;
+            width: 10rem;
+            height: 10rem;
         }
 
         .funcao {
@@ -192,13 +214,13 @@
         
         .redes-sociais {
             a{
-                padding: 8px;
+                padding: 0.8rem;
             }
         }
     }
 
     .info {
-        width: 80%;
+       
         
 
         div {
@@ -218,11 +240,11 @@
     }
 
     .conhecimento {
-        width: 65%;
+        
 
         article {
             gap: 10px;
-            width: 100%;
+           
 
             div {
                 font-size: 1.8rem;
